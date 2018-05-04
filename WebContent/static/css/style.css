@@ -1,0 +1,174 @@
+
+/* start navbar */
+.navbar .navbar-nav .nav-item .nav-link {
+        font-size: 1.4rem;
+}
+
+.navbar .navbar-brand {
+   font-size: 1.5rem;
+}
+.navbar .add-prod{
+	font-size: 1.3rem !important;
+	font-weight:bold
+}
+.navbar .add-prod:hover{
+    border: 1px solid rgba(251, 37, 37, 0.2);
+    background: rgba(3, 146, 139, 0.5);
+    border-radius: 9px;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+
+}
+
+/* end navbar */
+
+
+/* start search bar */
+.searchbar{
+    margin-top: 5rem
+}
+@media (max-width: 575.98px) { 
+ .searchbar #search-P{
+        width: 17rem !important
+    }
+    #search-btn{
+        margin: 0 auto !important
+    }
+}
+
+/* end search bar */
+
+/* start categories */
+
+.categories .categ{
+    border: 1px solid #e7eaed;
+    margin: 5px;
+    padding: 20px 0;
+}
+.categories .categ .cat-image i{
+    font-size: 40px;
+    color: #fff;
+    background: #dd0908;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 95px;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+}
+.categories .categ h4{
+        margin: 0 0 0 0;
+    color: #4C4C4C;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.categories .categ .cat-image i.fa-laptop {
+    background: #ff9e29;
+}
+.categories .categ .cat-image i.fa-car {
+    background: #3fb7d2;
+}
+.categories .categ .cat-image i.fa-motorcycle {
+    background: #15c01c;
+}
+.categories .categ .cat-image i.fa-wheelchair {
+    background: #7e3b07;
+}
+.categories .categ .cat-image i.fa-paw {
+    background: #1963ce;
+}
+.categories .categ .cat-image i.fa-book {
+    background: #c119ce;
+}
+
+.categories .categ .cat-image i.fa-asterisk {
+    background: #7fbad8;
+}
+
+.categories .categ .cat-image i.fa-child{
+    background: #1ca39d;
+}
+
+.categories .categ .cat-image i.fa-shield-alt {
+    background: #f49ecf;
+}
+
+.categories .categ .cat-image i.fa-at {
+    background: #070c1f;
+}
+
+.categories .categ .cat-image i.fa-home {
+    background: #df8012;
+}
+
+.categories .categ .cat-image i.fa-hand-holding-usd {
+    background:blueviolet;
+}
+
+.categories .categ:hover {
+    cursor: pointer;
+    background-color: #01a185;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* end categories */
+
+
+
+.logout-btn{
+	color:#16181b;
+	border:1px solid #fff;
+    background-color: #fff;
+	margin-right: 37px;
+}
+.logout-btn:hover{
+	border:1px solid #fff;
+    background-color: #f8f9fa;
+    margin-right: 37px;
+}
+.form-group .err{
+   color:red
+}
+
+form,input{
+	 direction: rtl;
+}
+
+.mrg{
+  align-items: center;
+}
+.mt-2, .my-2{
+  margin-bottom: 0
+}
+
+.custom-file-input{
+      height: calc(1.25rem + 2px);
+}
+
+label.custom-file{
+  cursor: pointer;
+
+}
+
+label.custom-file span.custom-file-control{
+    border: 1px solid #aeaaaa;
+    padding: 5px;
+}
+
+label.custom-file span.custom-file-control:hover{
+  background-color: red;
+  color: #FFF
+}
