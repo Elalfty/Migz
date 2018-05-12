@@ -8,9 +8,18 @@ public class Product {
 
 	private int id,CAT,user_id;
 	private String productName,des,city,advName,phone,email, price;
-
+  
 	private InputStream in_stream ;
 	private byte[] img_array;
+	
+	
+	
+
+	public String toString() {
+		return "Product [ id: "+this.id+", productName:"+this.productName+", CAT:"+this.CAT+", des:"+this.des
+				+", city:"+this.city+", advName:"+this.advName+", phone:"+this.phone+", email:"+this.email
+				+", price"+this.price+" ]";
+	}
 	
 	public Product() {
 		super();
@@ -174,7 +183,5 @@ public class Product {
 	public void setPrice_Double(Double price) {
 		this.price = String.valueOf(price);
 	}
-	
-	
-	
+
 }

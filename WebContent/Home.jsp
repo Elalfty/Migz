@@ -44,7 +44,7 @@
   
   
   <!-- Start Navbar -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" >
    <div class="container">
    <a class="navbar-brand" href="Home.jsp">Brand</a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,7 +119,7 @@
   </div  >
   <select style="width:17rem;" class="custom-select" id="inputGroupSelect01">
     <option selected>إبحث عن المنطقة هنا...</option>
-    <option value="1">One</option>
+    <option value="1">القاهرة</option>
     <option value="2">Two</option>
     <option value="3">Three</option> 
        <option value="1">One</option>

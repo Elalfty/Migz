@@ -24,6 +24,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <!-- Fontaswom CSS -->
+      <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
 <style>
    .prof{padding-top:20px;}
    .card img{

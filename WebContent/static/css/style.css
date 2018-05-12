@@ -1,5 +1,8 @@
 
 /* start navbar */
+.navbar{
+    background-color:#2bcbba !important;
+}
 .navbar .navbar-nav .nav-item .nav-link {
         font-size: 1.4rem;
 }
@@ -11,9 +14,9 @@
 	font-size: 1.3rem !important;
 	font-weight:bold
 }
-.navbar .add-prod:hover{
-    border: 1px solid rgba(251, 37, 37, 0.2);
-    background: rgba(3, 146, 139, 0.5);
+.navbar .nav-item .add-prod:hover{
+    border: 1px solid #0fb9b1;
+    background: #0fb9b1 !important;
     border-radius: 9px;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -50,7 +53,7 @@
 .categories .categ .cat-image i{
     font-size: 40px;
     color: #fff;
-    background: #dd0908;
+    background: #fc5c65;
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -75,7 +78,7 @@
     background: #ff9e29;
 }
 .categories .categ .cat-image i.fa-car {
-    background: #3fb7d2;
+    background: #786fa6;
 }
 .categories .categ .cat-image i.fa-motorcycle {
     background: #15c01c;
@@ -107,7 +110,7 @@
 }
 
 .categories .categ .cat-image i.fa-home {
-    background: #df8012;
+    background: #2d98da;
 }
 
 .categories .categ .cat-image i.fa-hand-holding-usd {
@@ -116,7 +119,7 @@
 
 .categories .categ:hover {
     cursor: pointer;
-    background-color: #01a185;
+    background-color: #2bcbba;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
